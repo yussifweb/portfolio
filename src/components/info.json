@@ -1,10 +1,16 @@
 {
    "index": [
-       {
-           "intro1": "Hi There, Welcome to my Info Site.",
-           "intro2": "This three page website will give you all you need to know about me.",
+       {   
+           "profile_pic" : "/profile.png",
+           "intro1": "Hi There, I'm Yussif and Welcome to my Info Site.",
+           "intro2": "This website will give you all you need to know about me.",
            "intro3": "Without further I do, let me tell you something small about myself......",
-           "intro4": "I am a self motivated, result oriented, respectful and responsible gentleman. I derive most of my motivation from myself and few from other people because I am the hero of my own story.\r\nWell that's just by the way.....\r\n\r\nI'm a fan of computers and technology as a whole and loves to get a peek into every technology out there, though i might not be able to accomplish that..... My determination knows no boundaries for it is like fire which can't be quenched by water thus quiting is not in my DNA. The world in this century is all about technology and it will grow to an unimaginable spectrum so i entreat everybody to get involved despite your work or whatever reason you have.\r\n\r\nI have the passion for computer programming and related fields though i don't have any college degree or any certificate on that but Google, YouTube, Udemy, Sololearn, Stackoverflow and my able Mr Asamoah Micheal being my great companions from the start I've been able to achieve quite small knowledge and counting.\r\n\r\nI love to use my free period to code, play music or watch movies. And also love to be alone with my thoughts but that doesn't mean I'm an introvert, NOPE I'm actually a friendly guy and really like hanging out with my friends.\r\n\r\nThanks for your time and enjoy your journey on this site."
+           "intro4": "I am a self motivated, result oriented, respectful and responsible gentleman. I derive most of my motivation from myself and few from other people because I am the hero of my own story.\r\nWell that's just by the way.....\r\n\r\nI'm a fan of computers and technology as a whole and loves to get a peek into every technology out there, though I might not be able to accomplish that..... My determination knows no boundaries for it is like fire which can't be quenched by water thus quiting is not in my DNA. The world in this century is all about technology and it will grow to an unimaginable spectrum so I entreat everybody to get involved despite your work or whatever reason you have.\r\n\r\nI have the passion for computer programming and related fields though I don't have any college degree or any certificate on that but Google, YouTube, Udemy, Sololearn, Stackoverflow and my able Mr Asamoah Micheal being my great companions from the start I've been able to achieve quite small knowledge and counting.\r\n\r\nI love to use my free period to code, play music or watch movies. And also love to be alone with my thoughts but that doesn't mean I'm an introvert, NOPE I'm actually a friendly guy and really like hanging out with my friends.\r\n\r\nThanks for your time and enjoy your journey on this site."
+       }
+   ],
+   "about" : [
+       {
+
        }
    ]
 }
