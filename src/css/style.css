@@ -1,0 +1,106 @@
+  body {
+  background:  linear-gradient(135deg, #3f4c6b 0%,#3f4c6b 100%);
+}
+
+.about{
+    font-weight: bolder; 
+}
+
+.ud{
+     border-bottom: solid 7px #fff;
+}
+
+.hc{
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.cd{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#ref{
+    background: linear-gradient(135deg, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+    color: white;
+    }
+
+.pic{
+    text-decoration: underline;
+    text-align: center;
+    font-family: fantasy;
+    padding: 1rem;
+}
+
+ .me{
+    text-decoration: underline;
+    }
+
+ .pro{
+    text-decoration: underline;
+    }
+
+.progress-bar{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.col-sm-4{
+    color:white;
+    padding: 1rem;
+}
+
+
+.col-sm-8{
+    padding: 1rem;
+}
+
+
+.container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#collapse-relevant li 
+	 a:active, a:focus, a:visited, a:link {
+		text-decoration: none;
+		color: inherit;
+	}
+#collapse-relevant li 
+    a:hover{
+        text-decoration: none;
+    }
+
+#collapse-relevant li {
+    list-style-image: url('../images/yes.png');   
+}
+
+
+#menu li {
+   font-family: cursive;
+}
+
+.no-8{
+    background: linear-gradient(45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
+}
+
+.port{
+    background: linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+}
+
+.port-title{
+    color: floralwhite;
+}
+
+.abo{
+    border-radius: 15px;
+}
+
+footer{
+    padding-bottom: 0.1rem;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    color: aqua;
+}
