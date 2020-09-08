@@ -53,15 +53,15 @@
    "skills" : [
        {
          "name" : "HTML",
-         "class" : ""  
+         "class" : "fa fa-html5"  
        },
        {
         "name" : "CSS",
-        "class" : ""  
+        "class" : "fa fa-css3"  
       },
       {
         "name" : "JavaScript",
-        "class" : ""  
+        "class" : "fab fa-js"
       },
       {
         "name" : "Bootstrap",
@@ -136,59 +136,61 @@
    ],
    "other_certs" : [
        {
-        "name" : "",
-        "by" : "",
-        "url" : ""
+        "name" : "Front-End Web UI Frameworks and Tools: Bootstrap 4",
+        "by" : "Coursera (The Hong Kong University of Science and Technology)",
+        "url" : "https://www.coursera.org/account/accomplishments/records/L59DFXCGCX7Z"
        },
        {
-        "name" : "",
-        "by" : "",
-        "url" : ""
+        "name" : " Javascript Programming For Everyone",
+        "by" : "Udemy",
+        "url" : "https://www.udemy.com/certificate/UC-5fe2bee0-a633-4af5-8b83-cdd9220dd2b4/"
        },
        {
-        "name" : "",
-        "by" : "",
-        "url" : ""
+        "name" : "Build Your First React Website",
+        "by" : "Coursera",
+        "url" : "https://www.coursera.org/account/accomplishments/certificate/ZW6N7UG54MF5"
        },
        {
-        "name" : "",
-        "by" : "",
-        "url" : ""
+        "name" : "Web Development Path (Node Js)",
+        "by" : "Progate",
+        "url" : "https://progate.com/path_certificate/774d4885qan6l1"
        },
        {
-        "name" : "",
-        "by" : "",
-        "url" : ""
+        "name" : "CSS",
+        "by" : "SoloLearn",
+        "url" : "https://www.sololearn.com/Certificate/1023-7079314/pdf/"
        },
        {
-        "name" : "",
-        "by" : "",
-        "url" : ""
+        "name" : "How to Create a Wordpress Website for Absolute Beginners",
+        "by" : "Udemy",
+        "url" : "https://www.udemy.com/certificate/UC-COC54BH0/"
        },
        {
-        "name" : "",
+        "name" : "HTML",
+        "by" : "SoloLearn",
+        "url" : "https://www.sololearn.com/Certificate/1014-7079314/pdf/"
+       },
+       {
+        "name" : "Introduction to Web Technologies",
         "by" : "",
-        "url" : ""
-       }   
+        "url" : "https://www.udemy.com/certificate/UC-LHN7CFNX/"
+       } 
    ],
    "rel_skills" : [
        {
-        "name" : ""
+        "name" : "Great ability to learn quickly and adapt to changing methods and environment."
        },
        {
-        "name" : ""
+        "name" : "Excellent human relations."
        },
        {
-        "name" : ""
+        "name" : "Reliable, organized and punctual."
        },
        {
-        "name" : ""
+        "name" : "Extreme eager to learn."
        },
        {
-        "name" : ""
-       },
-       {
-        "name" : ""
+        "name" : "General knowledge in Information Technology"
        }
    ]
 }
