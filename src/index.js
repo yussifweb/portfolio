@@ -6,6 +6,7 @@ import 'jquery/dist/jquery.js'
 import './css/index.css'
 import './css/style.css'
 import './css/top.css'
+// import './js/script'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';

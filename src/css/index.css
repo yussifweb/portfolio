@@ -41,6 +41,10 @@ body{
     width: 100%;
 }
 
+.profile{
+    z-index: 10;
+}
+
 .section-content{
     padding: 5rem; 
 }
