@@ -1,33 +1,21 @@
 import React, { Component } from 'react'
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap'
 
-class Skills extends Component {
-    // eslint-disable-next-line react/require-render-return
+export class Skills extends Component {
     render() {
-        const skill = this.props.info.skills.map((skill) => {
+        const svg_path =  "../svgs/" + this.props.class + ".svg";
+        console.log(svg_path);
         return (
-            <div className="container">
-                <div className="row">   
-                 <div key={skill.name} className="col-6 col-sm-4">
-                 <Card>
-                  <CardImg width="100%" src={skill.class} alt={skill.name} />
-                  <CardImgOverlay>
-                      <CardTitle>{skill.name}</CardTitle>
-                  </CardImgOverlay>
-                </Card>
-                 </div>    
-                </div>                
-            </ div>
-        )
-        })
+            <div key={this.props.name} className="col-6 col-sm-3">
+            <div className="card">
+            <img src={svg_path} alt={this.props.name} className="card-img-top" />
+            <div className="card-body">
+             <h5 className="card-title text-center">{this.props.name}</h5>
+            </div>
+            </div>
+            </div>    
+           )
     }
 }
-
-   {/* <div class="card" width="">
-     <img src="" class="card-img-top" alt=""/>
-    <div class="card-body">
-    <h5 class="card-title">{this.props.name}</h5>
-    </div>
-    </div>   */}
 
 export default Skills

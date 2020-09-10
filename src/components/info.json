@@ -53,51 +53,51 @@
    "skills" : [
        {
          "name" : "HTML",
-         "class" : "fa fa-html5"  
+         "class" : "html-5"  
        },
        {
         "name" : "CSS",
-        "class" : "fa fa-css3"  
+        "class" : "css-3"  
       },
       {
         "name" : "JavaScript",
-        "class" : "fab fa-js"
+        "class" : "javascript"
       },
       {
         "name" : "Bootstrap",
-        "class" : ""  
+        "class" : "bootstrap-4"  
       },
       {
         "name" : "React",
-        "class" : ""  
+        "class" : "react"  
       },
       {
         "name" : "Wordpress",
-        "class" : ""  
+        "class" : "wordpress"  
       },
       {
         "name" : "Microsoft Powerpoint",
-        "class" : ""  
+        "class" : "powerpoint"  
       },
       {
         "name" : "Microsoft Excel",
-        "class" : ""  
+        "class" : "excel"  
       },
       {
         "name" : "Microsoft Word",
-        "class" : ""  
+        "class" : "word"  
       },
       {
         "name" : "Photography",
-        "class" : ""  
+        "class" : "camera"  
       },
       {
         "name" : "Photoshop",
-        "class" : ""  
+        "class" : "photoshop"  
       },
       {
         "name" : "Premiere Pro",
-        "class" : ""  
+        "class" : "premier"  
       },
       {
         "name" : "DJ (Virtual DJ)",
@@ -105,11 +105,11 @@
       },
       {
         "name" : "Radio Production",
-        "class" : ""  
+        "class" : "on-air"  
       },
       {
         "name" : "Audition",
-        "class" : ""  
+        "class" : "audition"  
       },
       {
         "name" : "Audacity",
@@ -117,7 +117,7 @@
       },
       {
         "name" : "Radio & TV Marketing",
-        "class" : ""  
+        "class" : "listening"  
       }
    ],
    "education" : [

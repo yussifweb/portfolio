@@ -6,6 +6,11 @@
     font-weight: bolder; 
 }
 
+.card{
+    background: none;
+    border: none;
+}
+
 .ud{
      border-bottom: solid 7px #fff;
 }
