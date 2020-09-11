@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Home from './Home'
 import About from './About'
+import Contacts from './Contacts'
 import Skills from './Skills'
 import info from './info.json'
 import logo from '../images/NETKID1N.jpg'   
@@ -14,9 +15,10 @@ export class Index extends Component {
       <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="#home">
-          <img className="rounded-circle profile" src={logo} width="30" height="30" alt="" loading="lazy"/></a>            
+          <img className="rounded-circle" src={logo} width="30" height="30" alt="" loading="lazy"/></a>            
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span></button>
+          <span className="navbar-toggler-icon"></span>
+          </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav mx-auto">
           <a className="nav-link active" href="#home">Home <span className="sr-only">(current)</span></a>
@@ -25,6 +27,10 @@ export class Index extends Component {
           <a className="nav-link" href="#works">Portfolio</a>
           <a className="nav-link" href="#contact">Contact</a>
           </div>
+          <label className="switch">
+          <input type="checkbox" />
+          <span className="slider round"></span>
+        </label>
        </div>
        </nav>
 
@@ -37,7 +43,13 @@ export class Index extends Component {
       }
       </div>
 
-      <div>
+      <div className="container">
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">About Me</h1>
+      </div>
+      </div> 
+      <div className="row">
       {
        info.about.map((about) => {
         return <About key={about.first_name} first_name={about.first_name} last_name={about.last_name} age={about.age} country={about.country}></About>
@@ -45,7 +57,26 @@ export class Index extends Component {
       }
       </div>
 
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">Contact Me</h1>
+      </div>
+      </div> 
+      <div className="row">    
+      {
+       info.contacts.map((contact) => {
+        return <Contacts key={contact.url} url={contact.url} class={contact.class} name={contact.name}></Contacts>
+        })
+      }
+      </div>
+      </div>
+
       <div className="container">
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">Skills</h1>
+      </div>
+      </div> 
       <div className="row">
       {
        info.skills.map((skill) => {

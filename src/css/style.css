@@ -1,4 +1,9 @@
-  body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
   background:  linear-gradient(135deg, #3f4c6b 0%,#3f4c6b 100%);
 }
 
@@ -6,9 +11,18 @@
     font-weight: bolder; 
 }
 
+.profile{
+    width: 40%;
+    height: auto;
+}
+
 .card{
     background: none;
     border: none;
+}
+
+.card-img{
+    width : 60%;
 }
 
 .ud{
@@ -50,7 +64,7 @@
     padding-right: 5rem;
 }
 
-.col-sm-4{
+/* .col-sm-4{
     color:white;
     padding: 1rem;
 }
@@ -58,7 +72,7 @@
 
 .col-sm-8{
     padding: 1rem;
-}
+} */
 
 
 .container {
@@ -108,4 +122,20 @@ footer{
 footer p{
     text-align: center;
     color: aqua;
+}
+
+@media(max-width: 500px){
+    .profile{
+        width: 70%;
+        height: auto;
+    }
+
+    #cover{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .info{
+        padding: 0.5rem;
+    }
 }

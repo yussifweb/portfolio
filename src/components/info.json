@@ -16,38 +16,46 @@
         "country" : "Ghana"
        }
    ],
-   "contact" : [
+   "contacts" : [
        {    
          "url" : "tel:+233545110415",
-         "class" : ""  
+         "class" : "phone-call",
+         "name" : "Phone1"
        },
        {    
         "url" : "tel:+233508255255",
-        "class" : ""  
+        "class" : "phone-call",
+        "name" : "Phone2"
       },
       {    
         "url" : "mailto:yussifissahgh@gmail.com",
-        "class" : ""  
+        "class" : "email",
+        "name" : "Email"  
       },
       {    
         "url" : "https://facebook.com/yussif.issah.714",
-        "class" : ""  
+        "class" : "facebook",
+        "name" : "Facebook" 
       },
       {    
         "url" : "https://twitter.com/net_kiddj",
-        "class" : ""  
+        "class" : "twitter",
+        "name" : "Twitter" 
       },
       {    
         "url" : "https://instagram.com/netkiddj",
-        "class" : ""  
+        "class" : "instagram",
+        "name" : "Instagram"  
       },
       {    
         "url" : "https://linkedin.com/in/netkiddj",
-        "class" : ""  
+        "class" : "linkedin",
+        "name" : "LinkedIn"  
       },
       {    
         "url" : "https://github.com/yussifweb",
-        "class" : ""  
+        "class" : "github",
+        "name" : "Github"  
       }
    ],
    "skills" : [
@@ -101,7 +109,7 @@
       },
       {
         "name" : "DJ (Virtual DJ)",
-        "class" : ""  
+        "class" : "virtual-dj"  
       },
       {
         "name" : "Radio Production",
@@ -113,7 +121,7 @@
       },
       {
         "name" : "Audacity",
-        "class" : ""  
+        "class" : "audacity"  
       },
       {
         "name" : "Radio & TV Marketing",
