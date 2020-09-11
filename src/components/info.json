@@ -130,15 +130,15 @@
    ],
    "education" : [
        {
-        "school" : "Ekacity Media College (2015 – 2016)",
+        "name" : "Ekacity Media College (2015 – 2016)",
         "cert" : "(Diploma in Journalism and Ethics)"
        },
        {
-        "school" : "Bekwai Seventh-Day Adventist Senior High School (2011 – 2014)",
+        "name" : "Bekwai Seventh-Day Adventist Senior High School (2011 – 2014)",
         "cert" : "(West African Senior High Certificate Examination)"
        },
        {
-        "school" : "Bekwai Roman Catholic Junior High School (2009-2011)",
+        "name" : "Bekwai Roman Catholic Junior High School (2009-2011)",
         "cert" : "(Basic Education Certificate Examination)"
        }
    ],
@@ -180,7 +180,7 @@
        },
        {
         "name" : "Introduction to Web Technologies",
-        "by" : "",
+        "by" : "Udemy",
         "url" : "https://www.udemy.com/certificate/UC-LHN7CFNX/"
        } 
    ],

@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import Home from './Home'
 import About from './About'
 import Contacts from './Contacts'
+import Schools from './Schools'
+import OtherCerts from './OtherCerts'
 import Skills from './Skills'
+import OtherSkills from './OtherSkills'
 import info from './info.json'
 import logo from '../images/NETKID1N.jpg'   
 // import * from '../svgs'
@@ -74,6 +77,34 @@ export class Index extends Component {
       <div className="container">
       <div className="row">
       <div className="mx-auto my-3">
+          <h1 className="ud">Education</h1>
+      </div>
+      </div> 
+      <div className="row">
+      {
+       info.education.map((school) => {
+        return <Schools key={school.name} name={school.name} cert={school.cert}></Schools>
+        })
+      }    
+      </div>
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">Other</h1>
+      </div>
+      </div> 
+      <div className="row">
+      {
+       info.other_certs.map((otherCert) => {
+        return <OtherCerts key={otherCert.name} name={otherCert.name} by={otherCert.by} url={otherCert.url}></OtherCerts>
+        })
+      } 
+
+      </div>
+      </div>
+
+      <div className="container">
+      <div className="row">
+      <div className="mx-auto my-3">
           <h1 className="ud">Skills</h1>
       </div>
       </div> 
@@ -81,6 +112,18 @@ export class Index extends Component {
       {
        info.skills.map((skill) => {
         return <Skills key={skill.name} name={skill.name} class={skill.class}></Skills>
+        })
+      }    
+      </div>
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">Relevant Skills</h1>
+      </div>
+      </div> 
+      <div className="row">
+      {
+       info.rel_skills.map((relSkill) => {
+        return <OtherSkills key={relSkill.name} name={relSkill.name}></OtherSkills>
         })
       }    
       </div>
