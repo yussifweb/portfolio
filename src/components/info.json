@@ -155,7 +155,7 @@
        },
        {
         "name" : "Build Your First React Website",
-        "by" : "Coursera",
+        "by" : "Coursera (Project Network)",
         "url" : "https://www.coursera.org/account/accomplishments/certificate/ZW6N7UG54MF5"
        },
        {
@@ -200,5 +200,119 @@
        {
         "name" : "General knowledge in Information Technology"
        }
+   ],
+   "works" : [
+     {
+       "name": "Nursery Staff, Cocoa Health and Extension Division, Bekwai District",
+       "date" : "October, 2015 - August, 2016"
+     },
+     {
+       "name" : "Producer of 'Time with Ekacity' program on Dess 90.3FM, Bekwai",
+       "date" : "January, 2016 - June,2016"
+     },
+     {
+       "name" : "DJ, It's My Kitchen Restaurant, Kumasi",
+       "date" : "September 2015 - December 2016"
+     },
+     {
+       "name" : "Pollinator, Cocoa Health and Extension Division, Bekwai District",
+       "date" : "June - December, 2017"
+     },
+     {
+       "name" : "Pollinator, Cocoa Health and Extension Division, Bekwai District",
+       "date" : "June - September, 2018"
+     },
+     {
+       "name" : "Master Pollinator, Cocoa Health and Extension Division, Bekwai District",
+       "date" : "June - September,2019"
+     },
+     {
+       "name" : "Zonal Officer, Farmerline",
+       "date" : "March 2019(Currently Work here)"
+     }
+   ],
+   "other_works" : [
+     {
+       "name": "Enumerator",
+       "job" : "(Mosquito Net Distribution Programme) Ghana Health Service"
+     },
+     {
+       "name" : "Biometric Verification Officer",
+       "job" : "Electoral Commission of Ghana"
+     }
+   ],
+   "portfolio" : [
+     {
+       "url" : "LIMS 2",
+       "title" : "Lims Radio Coming Soon Flyer"
+     },
+     {
+      "url" : "EDIOT3",
+      "title" : "DJ Koded x Ebony-Ediot Cover art"
+    },
+    {
+      "url" : "MMM",
+      "title" : "Metro Morning Mix Flyer"
+    },
+    {
+      "url" : "NERO B",
+      "title" : "Adwuma Mmre on Testimony FM"
+    },
+    {
+      "url" : "T Drive",
+      "title" : "Testimony Drive Time"
+    },
+    {
+      "url" : "mpotamu",
+      "title" : "Me Mpotamu Mpuntuo on Testimony FM"
+    },
+    {
+      "url" : "tm3",
+      "title" : "Flavour Zone on Sikka FM"
+    },
+    {
+      "url" : "t Drivet",
+      "title" : "Testimony Drive Time"
+    },
+    {
+      "url" : "starr luv2",
+      "title" : "Starr Luv-Bend Down"
+    },
+    {
+      "url" : "CARTHY",
+      "title" : "Hip Pop Life Mixtape"
+    },
+    {
+      "url" : "PM1",
+      "title" : "Peace Mobile Preachers Logo"
+    },
+    {
+      "url" : "koded RG",
+      "title" : "DJ Koded-GH Raggae Mixtape"
+    },
+    {
+      "url" : "iko",
+      "title" : "Iko Shei Allah Fun Club"
+    },
+    {
+      "url" : "Akosua Boatemaa",
+      "title" : "Akosua Boatemaa Showbiz Hub"
+    },
+    {
+      "url" : "starr luv",
+      "title" : "Starr Luv-Bhad Gyal"
+    },
+    {
+      "url" : "ALBERT",
+      "title" : "Testimony Fm Late Night Jam"
+    },
+    {
+      "url" : "kuul",
+      "title" : "Kuul FM Morning Show"
+    },
+    {
+      "url" : "koded mix",
+      "title" : "Quaeamtine Mixtape Cover Art"
+    }
    ]
 }

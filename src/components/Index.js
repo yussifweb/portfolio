@@ -6,9 +6,11 @@ import Schools from './Schools'
 import OtherCerts from './OtherCerts'
 import Skills from './Skills'
 import OtherSkills from './OtherSkills'
+import Works from './Works'
+import OtherWorks from './OtherWorks'
+import Portfolio from './Portfolio'
 import info from './info.json'
-import logo from '../images/NETKID1N.jpg'   
-// import * from '../svgs'
+import logo from '../images/NETKID1N.jpg'
 
 
 export class Index extends Component {
@@ -127,7 +129,52 @@ export class Index extends Component {
         })
       }    
       </div>
-      </div>      
+      </div>
+
+      <div className="container">
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">Employment Details</h1>
+      </div>
+      </div> 
+      <div className="row">
+      {
+       info.works.map((work) => {
+        return <Works key={work.date} name={work.name} date={work.date}></Works>
+        })
+      }    
+      </div>
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">Other</h1>
+      </div>
+      </div> 
+      <div className="row">
+      {
+       info.other_works.map((otherWork) => {
+        return <OtherWorks key={otherWork.name} name={otherWork.name} job={otherWork.job}></OtherWorks>
+        })
+      } 
+      </div>
+      </div>
+
+      <div className="container">
+      <div className="row">
+      <div className="mx-auto my-3">
+          <h1 className="ud">Portfolio</h1>
+      </div>
+      </div> 
+      <div className="row">    
+      {
+       info.portfolio.map((portfolio) => {
+        return <Portfolio key={portfolio.url} url={portfolio.url} title={portfolio.title}></Portfolio>
+        })
+      }
+      </div>
+      </div>
+
+
+            
 
     <div>
     <footer className="bg-dark" id="foot">

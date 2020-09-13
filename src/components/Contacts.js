@@ -8,7 +8,7 @@ export class Contacts extends Component {
             <div className="card">
             <div className="card-img mx-auto">
             <a href={this.props.url} data-toggle="tooltip" data-placement="top" title={this.props.name}>
-             <img src={svg_path} alt={this.props.name} className="card-img-top" />
+            <img src={svg_path} alt={this.props.name} className="card-img-top" />
             </a>           
             </div>
             </div>
