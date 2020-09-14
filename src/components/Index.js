@@ -11,12 +11,15 @@ import OtherWorks from './OtherWorks'
 import Portfolio from './Portfolio'
 import info from './info.json'
 import logo from '../images/NETKID1N.jpg'
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 
 export class Index extends Component {
+
  
   render() {
     return(
+      <Router>
       <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="#home">
@@ -26,11 +29,24 @@ export class Index extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav mx-auto">
-          <a className="nav-link active" href="#home">Home <span className="sr-only">(current)</span></a>
-          <a className="nav-link" href="#about">About</a>
-          <a className="nav-link" href="#skills">Skills</a>
-          <a className="nav-link" href="#works">Portfolio</a>
-          <a className="nav-link" href="#contact">Contact</a>
+          <Link to='/'>
+          <li className="nav-link">Home<span className="sr-only">(current)</span></li>
+          </Link>
+          <Link to='/about'>
+          <li className="nav-link">About</li>
+          </Link>
+          <Link to='/schools'>
+          <li className="nav-link">Education</li>
+          </Link>
+          <Link to='/skills'>
+          <li className="nav-link">Skills</li>
+          </Link>
+          <Link to='/works'>
+           <li className="nav-link">Work</li>
+          </Link>
+          <Link to='/portfolio'>
+          <li className="nav-link">Portfolio</li>
+          </Link>
           </div>
           <label className="switch">
           <input type="checkbox" />
@@ -39,7 +55,8 @@ export class Index extends Component {
        </div>
        </nav>
 
-
+      <Switch>
+      <Route path="/" exact component={Home}>
       <div>
       {
         info.index.map((home) => {
@@ -47,7 +64,9 @@ export class Index extends Component {
        })
       }
       </div>
-
+      </Route>
+      
+      <Route path="/about" component={About}>
       <div className="container">
       <div className="row">
       <div className="mx-auto my-3">
@@ -75,7 +94,9 @@ export class Index extends Component {
       }
       </div>
       </div>
+      </Route>
 
+      <Route path="/schools" component={Schools}>
       <div className="container">
       <div className="row">
       <div className="mx-auto my-3">
@@ -100,10 +121,11 @@ export class Index extends Component {
         return <OtherCerts key={otherCert.name} name={otherCert.name} by={otherCert.by} url={otherCert.url}></OtherCerts>
         })
       } 
-
       </div>
       </div>
+      </Route>
 
+      <Route path="/skills" component={Skills}>
       <div className="container">
       <div className="row">
       <div className="mx-auto my-3">
@@ -130,7 +152,9 @@ export class Index extends Component {
       }    
       </div>
       </div>
+      </Route>
 
+      <Route path="/works" component={Works}>
       <div className="container">
       <div className="row">
       <div className="mx-auto my-3">
@@ -157,7 +181,9 @@ export class Index extends Component {
       } 
       </div>
       </div>
+      </Route>
 
+      <Route path="/portfolio" component={Portfolio}>
       <div className="container">
       <div className="row">
       <div className="mx-auto my-3">
@@ -172,6 +198,8 @@ export class Index extends Component {
       }
       </div>
       </div>
+      </Route>
+      </Switch>
 
 
             
@@ -182,6 +210,7 @@ export class Index extends Component {
     </footer>
     </div>
       </div>
+      </Router>
   )
 }
 }

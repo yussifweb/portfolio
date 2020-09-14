@@ -39,6 +39,12 @@ body {
     padding-right: 0.5rem;
 }
 
+isActive{
+    background-color: floralwhite;
+    border: 1px solid floralwhite;
+    border-radius: 5px;
+}
+
 #ref{
     background: linear-gradient(135deg, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
     color: white;
